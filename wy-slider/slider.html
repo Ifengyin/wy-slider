@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Keywords" content="大纲政务">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="slider-container" id="slider">
+	<a href="javascript:void(0);" class="narrow-left"></a>
+	<a href="javascript:void(0);" class="narrow-right"></a>
+	<div class="slider-content">
+		<ul>
+
+		</ul>
+	</div>
+	<ul class="pagination">
+
+	</ul>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/sldier.js"></script>
+<script>
+	$("#slider").slider_banner([
+		{"i":0,"img":"images/banner_1.jpg","color":"#45CEC7"},
+		{"i":1,"img":"images/banner_2.jpg","color":"#03C36D"},
+		{"i":2,"img":"images/banner_3.jpg","color":"#1384D0"},
+		{"i":3,"img":"images/banner_2.jpg","color":"#03C36D"},
+		{"i":4,"img":"images/banner_3.jpg","color":"#1384D0"}
+	]);
+</script>
+</body>
+</html>
